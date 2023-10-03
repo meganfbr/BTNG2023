@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR BIODATA</title>
+</head>
+<body>
+    <h1> FORMULIR BIODATA</h1>
+    <form action="form.html">
+    <!---tabel-->
+    <table>
+        <!---type input text-->
+        <tr>
+            <td><label for="Nama"> Nama </label></td>
+            <td> : <input type="text" id=": Nama"></td>
+        </tr>
+        <br>
+        <tr>
+        <td><label for="NIM"> NIM   </label></td>
+        <td> : <input type="text" id=": NIM"></td>
+        </tr>
+        <br>
+        <tr>
+            <td><label for="Jurusan"> Jurusan   </label></td>
+            <td> : <input type="text" id=": Jurusan"></td>
+        </tr>
+        <br>
+        <!---select-->
+        <tr>
+            <td><label for="Fakultas"> Fakultas </label></td>
+            <td> :
+                <select>
+                <option> Fakultas Ilmu Komputer</option>
+                <option> Fakultas Ekonomi Bisnis</option>
+                <option> Fakultas Kesehatan Masyarakat</option>
+                <option> Fakultas Kedokteran</option>
+                <option> Fakultas Ilmu Budaya</option>
+                <option> Fakultas Teknik</option>
+                </select> 
+            </td>
+        </tr>
+        <br>
+        <!---type input text-->
+        <tr>
+            <td><label for="Angkatan"> Angkatan   </label></td>
+            <td> : <input type="text" id=": Angkatan"></td>
+        </tr>
+        <br>
+        <tr>
+            <td><label for="Jenis Kelamin"> Jenis Kelamin   </label></td>
+            <td> : 
+                <!-- Radio button -->
+                    <label class="radio-label-text">Pria</label>
+                    <input type="radio" class="radio-input" name="option" value="option1">
+
+                    <label class="radio-label-text">Wanita</label>
+                    <input type="radio" class="radio-input" name="option" value="option2">
+
+            </td>
+        </tr>
+        <!---type input text-->
+        <tr>
+                <td><label for="email"> Email   </label></td>
+                <td> : <input type="text" id=": email"></td>
+            </tr>
+    </table>
+        <!----penggunaan button-->
+        <div style="margin-top: 10px">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <a href="biodata.html">
+                <button type= "menu"> Biodata <a href= "biodata.html"></a> </button>
+            </a>
+        </div>
+    </form>
+</body>
+</html>
