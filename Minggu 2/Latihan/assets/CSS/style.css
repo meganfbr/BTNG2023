@@ -1,0 +1,57 @@
+/*element selector*/
+*{style}
+
+.body {
+    background-image: url("img 2.jpeg")
+}
+
+h1 {
+    color: blue ;
+    text-align: center;
+}
+
+/* id selector*/
+#judul {
+    font-weight : 800;
+    font-style: italic;
+    background-color: bisque;
+}
+/*class selector*/
+.sub-judul {
+    color: blue;
+    text-shadow: 5px 3px 5px blueviolet;
+}
+
+.content {
+    font-style: italic;
+    color : green;
+}
+
+.p1, .p2 .p3 {
+    color : blue;
+    text-align: center;
+}
+
+.link:hover {
+    background-color: beige;
+    color : rgb(204, 132, 132);
+}
+
+.container {
+    border: 4px solid burlywood;
+}
+.box {
+    border: 2px solid blue;
+    background-color: azure;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-content {
+    border: 1px solid beige;
+    background-color: aliceblue;
+}
+
+box p {
+    color: chocolate;
+}
