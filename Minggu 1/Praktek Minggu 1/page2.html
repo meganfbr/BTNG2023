@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content=""width=device-width,
+        initial-scales="1.0"/>
+        <title>Hellow Wordl</title>
+    </head>
+    <a>
+        <!--heading-->
+        <h1> heading 1</h1>
+        <h2> heading 2</h2>
+        <h3> heading 3</h3>
+        <h4> heading 4</h4>
+        <h5> heading 5</h5>
+        <h6> heading 6</h6>
+        <!--paragraf dan enter-->
+        <p> Ini paragraf</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, voluptatibus nostrum earum magnam minus id?<br> Voluptatem dicta accusantium eligendi sapiente labore tempore praesentium, distinctio amet ipsa in dolor enim ut.
+        </p>
+        <!--bold-->
+        <b>Tebal bold</b> <br>
+        <!--italic-->
+        <i>Miring iltalic</i> <br>
+        <!--underline-->
+        <u>Underline </u>
+        <!--oderet list-->
+        <ol type="a">
+            <li>content 1</li>
+            <li>content 2</li>
+            <li>content 3</li>
+        </ol>
+        <!--Unordered list-->
+        <ul type="square">
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ul>
+        <!--Descripition list-->
+        <ol>
+            <dt> judul 1</dt>
+            <dd> isi content 1</dd>
+        </ol>
+        <!--hyper link-->
+        <a href="https://www.youtube.com/playlist?list=PLaoW0C-iGdrcdWMgAxEqBbR0qF-sYqBmh">
+            Link Youtube</a>
+        <!--external link-->
+        <a href="https://youtu.be/ar_Dtjzoip0?si=xl5R6TXqG0ANac8d" target="_blank">
+            Link youtube new tab </a>
+        </a>
+        <p>Link untuk page baru <a href="page1.html"> disini</a></p>
+
+        <!--relative URL-->
+        <P>
+            Link untuk page baru beda folder klik
+            <a href="/folder/page2.html">disini</a>
+        </P>
+
+        <!--image-->
+        <img src="ayen.jpg" alt="AYEN" title="ayenie" width="200"/>
+        <br>
+        <img src="/asset/IMG_20201224_001245.jpg" alt="bang_chan">
+        <br>
+        <img src= "ayen.jpg" title= "logo_ayen"></img>
+        <br>
+
+        <!---table-->
+        <table border="1" cellspacing="0" cellpdding="10" width="500px" height="200px">
+        <thead>
+            <tr>
+                <th> heading 1 </th>
+                <th> heading 2 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> baris 1, kolom 1</td>
+                <td> baris 2, kolom 2</td>
+            </tr>
+            <br>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+            <br>
+        </table>
+            <!---type input text-password-->
+            <form>
+                <label for="password">Password :</label>
+                <input type="password" id="password">
+            </form>
+            <br>
+            <!--type input radio--->
+            <form>
+                <input type="radio" id="wanita" name="gender">
+                <label for="wanita"> wanita </label>
+
+                <input type="radio" id="pria" name="gender">
+                <label for="wanita"> pria </label>
+            </form>
+            <br>
+            <!--type input checkbox-->
+            <form>
+                <input type="checkbox" id="nonton" name="hobby" value="nonton"/>
+                <label for="nonton">Nonton</label>
+
+                <input type="checkbox" id="gamers" name="hobby" value="gamers"/>
+                <label for="nonton">Gamers</label>
+
+                <input type="checkbox" id="ngoding" name="hobby" value="ngoding"/>
+                <label for="nonton">Ngoding</label>
+            </form>
+            <br>
+            <!--type input radio text area-->
+            <form>
+                <label for="komentar">Komentar</label>
+                <textarea name="komentar" id="komentar" cols="20" rows="10"></textarea>
+            </form>
+            <br>
+            <!--select-->
+            <form>
+             <select>
+                <option> Sate Ayam</option>
+                <option> Seblak</option>
+                <option> Masakan Ibuk Nomor Satu</option>
+                <option> Mie Gore Sedap Tidak Pedas</option>
+                <option> Ayam Geprek Bakar</option>
+             </select> 
+            </form>
+            <br>
+                <button type= "submit"> Kirim </button>
+            </a>
+        </tbody>
+    </body>
+</html>
